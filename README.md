@@ -1,18 +1,24 @@
-📆 Age Calculator App
-The Age Calculator App is a simple and interactive web application built using HTML, CSS, and JavaScript. It allows users to input their date of birth and calculates their exact age in years, months, and days.
+# 📆 Age Calculator App
 
-🚀 Features
-📅 Input your Date of Birth
+The **Age Calculator App** is a simple, interactive web application that allows users to calculate their age in **years**, **months**, and **days** based on their date of birth. It is built using **HTML**, **CSS**, and **JavaScript**, featuring a modern, responsive design and a clean user interface.
 
-🧮 Get your exact age in years, months, and days
+---
 
-🎨 Stylish and responsive UI
+## ✨ Features
 
-💡 Live, real-time age calculation
+- 📅 Select your **Date of Birth**
+- 🧮 Calculates **exact age** in years, months, and days
+- 🎨 Clean and modern **UI design** with gradient
 
-🛠️ Technologies Used
-HTML5 
+---
 
-CSS3 
+## 🛠️ Technologies Used
 
-JavaScript 
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+
+---
+
+## 📸 Screenshots
+![Screenshot](./screenshot.png)
