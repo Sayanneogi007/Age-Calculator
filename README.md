@@ -21,4 +21,4 @@ The **Age Calculator App** is a simple, interactive web application that allows 
 ---
 
 ## 📸 Screenshots
-![Screenshot]([./screenshot.png](https://github.com/Sayanneogi007/Age-Calculator/blob/807f5c6452e40257671f46bd091c596486539273/Screenshot.png))
+![Screenshot](https://github.com/Sayanneogi007/Age-Calculator/blob/807f5c6452e40257671f46bd091c596486539273/Screenshot.png)
