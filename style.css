@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f2027;
+  background-image: radial-gradient(circle at 25% 25%, #2c5364 0%, transparent 25%),
+                    radial-gradient(circle at 75% 75%, #203a43 0%, transparent 25%);
+  background-size: 400px 400px;
+  background-repeat: repeat;
+  color: #ffffff;
+}
+
+/* Container Card */
+.container {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  width: 90%;
+  max-width: 420px;
+  text-align: center;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Header Style */
+.container h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+/* Label & Input */
+label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  display: block;
+  color: #e0e0e0;
+}
+
+input[type="date"] {
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  background-color: #ffffffd9;
+  color: #333;
+}
+
+/* Button Styling */
+button {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 25px;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  transform: scale(1.03);
+}
+
+/* Result Section */
+#result {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+/* Colorful Result Boxes */
+.result-box {
+  flex: 1 1 30%;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  min-width: 100px;
+  color: #fff;
+  transition: transform 0.3s;
+}
+
+.result-box:hover {
+  transform: translateY(-5px);
+}
+
+.result-box span {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.result-box label {
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+/* Unique Background Colors */
+.result-box.years {
+  background: #2980b9; /* Blue */
+}
+.result-box.months {
+  background: #27ae60; /* Green */
+}
+.result-box.days {
+  background: #e67e22; /* Orange */
+}
